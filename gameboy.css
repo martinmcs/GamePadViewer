@@ -2,8 +2,8 @@
 /*This class defines the base attributes of the skin*/
 .controller.custom {
 	background: url(./base.png);
-	width: 3537px;
-	height: 1165px;
+	width: 500px;
+	height: 500px;
 }
 .custom.disconnected {
 	/* This class shows an image when the controller is disconnected */
@@ -13,33 +13,7 @@
 .custom.disconnected div {
 	display: none;
 }
-/* This bit of code is for the player indicator, which is represented in
-quandrants on the xbox controller. That's note what it's called on the
-PS3 controller but it'd be pointless for me to change the HTML for 
-something as pedantic as a name. */
-.custom .quadrant {
-	position: absolute;
-	background: url(./player-n.png);
-	height: 17px;
-	width: 111px;
-	top: 520px;
-	left: 2590px;
-}
-/* Since the player indicator is just a CSS sprite, we change the 
-position of the background to match the player number.
-NOTE: Player orderin starts at 0, so p0 = Player 1 */
-.custom .p0 {
-	background-position: 0 -6px;
-}
-.custom .p1 {
-	background-position: 0 -28px;
-}
-.custom .p2 {
-	background-position: 0 -49px;
-}
-.custom .p3 {
-	background-position: 0 -70px;
-}
+
 /* This is to size and position the containing div for the 
 start and select buttons. */
 .custom .arrows {
@@ -47,7 +21,7 @@ start and select buttons. */
 	width: 205px;
 	height: 19px;
 	top: 398px;
-	left: 3008px;
+	left: 400px;
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back,
