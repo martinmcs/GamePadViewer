@@ -46,7 +46,7 @@ start and select buttons. */
 /* Positioning and size of the container for the face buttons */
 .custom .abxy{
     position: absolute;
-    width: 64px;
+    width: 98px;
     height: 67px;
     top: 112px;
     left: 202px;
@@ -67,19 +67,19 @@ start and select buttons. */
 /* x is a, but not in the order on the gameboy. A is on the right hand side */
 /* TODO: See if we can change the button order so that X is B and A is O */
 .custom .a{
-    top: -95px;
-    left: -278px;
+    top: 0px;
+    left: 52px;
 }
 
 /* o is b, but not in the order on the gameboy. B is on the left hand side */
 .custom .b{
-    top: -74px;
-    right: 465px;
+    top: 21px;
+    right: 54px;
 }
 
 
 .custom .a.pressed{
-    background-position: 124px -67px;
+    background-position: 4px 56px;
 }
 .custom .b.pressed{
     background-position: 56px -67px;
