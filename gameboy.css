@@ -90,12 +90,12 @@ start and select buttons. */
 }
 .custom .face{
     position: absolute;
-    width: 64px;
-    height: 87px;
+    width: 28px;
+    height: 28px;
 }
 .custom .face.up{
-    left: 32px;
-    top: -12px;
+    left: 28px;
+    top: 3px;
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
 }
