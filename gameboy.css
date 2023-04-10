@@ -30,10 +30,11 @@ start and select buttons. */
     width: 44px;
     height: 28px;
 }
-/* #.custom .back.pressed, .custom .start.pressed{
-    background-image: url(img/pressed_buttons.png);
+.custom .back.pressed, .custom .start.pressed{
+    background-image: url(/buttons.png);
     background-position: -83px -159px;
-} */
+} 
+
 .custom .back{
     float: left;
 }
@@ -56,7 +57,7 @@ start and select buttons. */
     height:56px;
 }
 .custom .button.pressed{
-    background: url(img/pressed_buttons.png);
+    background: url(/buttons.png);
 }
 .custom .a{
     top: 123px;
@@ -115,31 +116,8 @@ start and select buttons. */
     right: -1px;
 }
 .custom .face.pressed{
-    background: url(img/pressed_buttons.png);
+    background: url(img/buttons.png);
     background-position: 0px -102px;
 }
-/* NOTE: You NEED to set this to exactly half the height of what is listed 
-for '.controller.custom' so when your skin is activated via player selection
-parameters (e.g. http://mrmcpowned.com/gamepad?p=1) it will be correctly
-centered on screen. */
-.custom.half{
-    margin-top: -279px;
-}
-/* The following entries are empty because I haven't used them yet, but they
-exist for the purpose of displaying a fightstick. Since fightsticks have 
-the left and right triggers and digital buttons, there are separate 
-html items that allow the triggers to be shown as button presses isntead of
-an opacity setting */
-.custom .trigger-button.left{
-    
-}
-.custom .trigger-button.right{
-    
-}
-.custom .trigger-button.left.pressed{
-    
-}
-.custom .trigger-button.right.pressed{
-    
-}
+
 /*END PS3 Controller Styling*/
