@@ -18,30 +18,36 @@
 
 /* This is to size and position the containing div for the 
 start and select buttons. */
+
+/* Position and size are set. Only "pressed" to review */
 .custom .arrows{
     position: absolute;
-    width: 200px;
+    width: 78px;
     height: 28px;
-    top: 240px;
-    left: 291px;
+    top: 222px;
+    left: 123px;
 }
-/* Setting the size and CSS sprite for the start adn select buttons */
+
 .custom .back, .custom .start{
-    width: 44px;
-    height: 28px;
+    width: 31px;
+    height: 15px;
 }
+
+.custom .back{
+    position: absolute;
+    top: 7px;
+}
+.custom .start{
+    position: absolute;
+    top: 7px;
+    right: 0px;
+}
+
 .custom .back.pressed, .custom .start.pressed{
     background-image: url(/buttons.png);
     background-position: -83px -159px;
 } 
 
-.custom .back{
-    float: left;
-}
-.custom .start{
-    float: right;
-    background-position: 37px 0;
-}
 /* Positioning and size of the container for the face buttons */
 .custom .abxy{
     position: absolute;
@@ -53,20 +59,29 @@ start and select buttons. */
 /* base class used to simplify the sprite mapping */
 .custom .button{
     position: absolute;
-    width:56px;
-    height:56px;
+    width:45px;
+    height:45px;
 }
 .custom .button.pressed{
     background: url(/buttons.png);
 }
+
+
+/* A and B positions are good. Still not sure about "Pressed"
+
+/* x is a, but not in the order on the gameboy. A is on the right hand side */
+/* TODO: See if we can change the button order so that X is B and A is O */
 .custom .a{
-    top: 123px;
-    left: 61px;
+    top: -95px;
+    left: -278px;
 }
+
+/* o is b, but not in the order on the gameboy. B is on the left hand side */
 .custom .b{
-    top: 62px;
-    right: 0px;
+    top: -74px;
+    right: 465px;
 }
+
 
 .custom .a.pressed{
     background-position: 124px -67px;
