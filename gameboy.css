@@ -1,13 +1,13 @@
 /*BEGIN Guitar Hero 5 Controller Styling*/
 /*This class defines the base attributes of the skin*/
 .controller.custom {
-	background: url(./base.png);
+	background: url(https://raw.githubusercontent.com/martinmcs/GamePadViewer/main/gameboy.png);
 	width: 500px;
 	height: 500px;
 }
 .custom.disconnected {
 	/* This class shows an image when the controller is disconnected */
-	background: url(./base.png);
+	background: url(https://raw.githubusercontent.com/martinmcs/GamePadViewer/main/gameboy.png);
 }
 /* This hides the controller's button when disconnected so only the background image remains */
 .custom.disconnected div {
