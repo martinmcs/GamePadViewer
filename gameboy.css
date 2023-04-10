@@ -7,7 +7,7 @@
 }
 .custom.disconnected {
 	/* This class shows an image when the controller is disconnected */
-	background: url(./base-disconnect.png);
+	background: url(./base.png);
 }
 /* This hides the controller's button when disconnected so only the background image remains */
 .custom.disconnected div {
