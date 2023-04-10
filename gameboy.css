@@ -74,13 +74,9 @@ start and select buttons. */
 .custom .b.pressed{
     background-position: 56px -67px;
 }
-.custom .x.pressed{
-    background-position: 124px 0;
-}
-.custom .y.pressed{
-    background-position: 56px 0;
-}
 
+/* DPAD looking okay position wize.
+Not sure what to do with "Pressed" though" */
 .custom .dpad{
     position: absolute;
     width: 84px;
@@ -100,23 +96,23 @@ start and select buttons. */
     transform: rotate(-90deg);
 }
 .custom .face.down{
-    left: 32px;
-    top: 52px;
+    left: 28px;
+    top: 56px;
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
 }
 .custom .face.left{
-    top: 20px;
-    left: 0;
+    top: 29px;
+    left: 1px;
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
 .custom .face.right{
-    top: 20px;
-    right: -1px;
+    top: 28px;
+    right: 0px;
 }
 .custom .face.pressed{
-    background: url(img/buttons.png);
+    background: url(/dpad.png);
     background-position: 0px -102px;
 }
 
