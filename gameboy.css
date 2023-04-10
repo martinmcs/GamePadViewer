@@ -83,10 +83,10 @@ start and select buttons. */
 
 .custom .dpad{
     position: absolute;
-    width: 127px;
-    height: 127px;
-    top: 235px;
-    left: 101px;
+    width: 84px;
+    height: 84px;
+    top: 100px;
+    left: 30px;
 }
 .custom .face{
     position: absolute;
