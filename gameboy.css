@@ -51,10 +51,10 @@ start and select buttons. */
 /* Positioning and size of the container for the face buttons */
 .custom .abxy{
     position: absolute;
-    width: 178px;
-    height: 179px;
-    top: 207px;
-    left: 533px;
+    width: 64px;
+    height: 67px;
+    top: 112px;
+    left: 202px;
 }
 /* base class used to simplify the sprite mapping */
 .custom .button{
