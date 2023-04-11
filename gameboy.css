@@ -39,7 +39,7 @@ start and select buttons. */
 }
 
 .custom .back.pressed, .custom .start.pressed{
-    background-image: url(/GamePadViewer/menu.png);
+    background-image: url(/GamePadViewer/clicked-menu.png);
     background-position: -83px -159px;
 } 
 
