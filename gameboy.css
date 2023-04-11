@@ -58,25 +58,24 @@ start and select buttons. */
     height:45px;
 }
 .custom .button.pressed{
-    background: url(/buttons.png);
+    background: url(/GamePadViewer/buttons.png);
 }
 
 
 /* A and B positions are good. Still not sure about "Pressed"
 
 /* x is a, but not in the order on the gameboy. A is on the right hand side */
+/* o is b, but not in the order on the gameboy. B is on the left hand side */
 /* TODO: See if we can change the button order so that X is B and A is O */
 .custom .a{
     top: 0px;
     left: 52px;
 }
 
-/* o is b, but not in the order on the gameboy. B is on the left hand side */
 .custom .b{
     top: 21px;
     right: 54px;
 }
-
 
 .custom .a.pressed{
     background-position: 4px 56px;
@@ -85,8 +84,7 @@ start and select buttons. */
     background-position: 56px -67px;
 }
 
-/* DPAD looking okay position wize.
-Not sure what to do with "Pressed" though" */
+/* DPAD Complete */
 .custom .dpad{
     position: absolute;
     width: 84px;
@@ -123,7 +121,7 @@ Not sure what to do with "Pressed" though" */
 }
 .custom .face.pressed{
     background: url(/GamePadViewer/clicked-dpad.png);
-    background-position: 0px -102px;
+    background-position: -2px -112px;
 }
 
 /*END PS3 Controller Styling*/
