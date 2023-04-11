@@ -39,7 +39,7 @@ start and select buttons. */
 }
 
 .custom .back.pressed, .custom .start.pressed{
-    background-image: url(/buttons.png);
+    background-image: url(/GamePadViewer/menu.png);
     background-position: -83px -159px;
 } 
 
@@ -122,7 +122,7 @@ Not sure what to do with "Pressed" though" */
     right: 0px;
 }
 .custom .face.pressed{
-    background: url(/dpad.png);
+    background: url(/GamePadViewer/dpad.png);
     background-position: 0px -102px;
 }
 
