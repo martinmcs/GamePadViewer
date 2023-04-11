@@ -62,7 +62,7 @@ start and select buttons. */
 }
 
 
-/* A and B positions are good. Still not sure about "Pressed"
+/* A and B positions are good.
 
 /* x is a, but not in the order on the gameboy. A is on the right hand side */
 /* o is b, but not in the order on the gameboy. B is on the left hand side */
@@ -85,15 +85,13 @@ start and select buttons. */
     background-position: 43px -82px;
 }
 
-/* Square and Triangle. Set high so that it is outside of the range of the image */
+/* Square and Triangle. Set to 0 so that it does not show */
 .custom .x.pressed{
-    background-position: -777px -777px;
+    background-size: 0;
 }
 .custom .y.pressed{
-    background-position: -777px -777px;
+    background-size: 0;
 }
-
-
 
 
 /* DPAD Complete */
