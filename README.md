@@ -12,4 +12,4 @@ If you plan on forking this, you need to enable Github pages.
 1. On the Repo page, select "Settings"
 2. At "Code and automation" select "Pages"
 
-I never documenated this part, but nexting through it all worked for me.
+I never documenated this part, but selected static and nexted through it all worked for me.
