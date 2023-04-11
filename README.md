@@ -4,6 +4,7 @@ Green Gameboy Color layout.
 
 Design by Genewal Design<br />
 https://dribbble.com/shots/16219109-Game-Boy-Color <br />
+If you are the owner and are not happy with me using this, I will remove it. Its for personal use only.<br />
 It has been trimmed for my overlay.
 
 ![](gameboy.png)
