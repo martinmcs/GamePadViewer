@@ -77,12 +77,24 @@ start and select buttons. */
     right: 54px;
 }
 
+
 .custom .a.pressed{
     background-position: 2px 44px;
 }
 .custom .b.pressed{
     background-position: 43px -82px;
 }
+
+/* Square and Triangle. Set high so that it is outside of the range of the image */
+.custom .x.pressed{
+    background-position: -777px -777px;
+}
+.custom .y.pressed{
+    background-position: -777px -777px;
+}
+
+
+
 
 /* DPAD Complete */
 .custom .dpad{
