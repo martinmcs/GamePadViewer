@@ -78,10 +78,10 @@ start and select buttons. */
 }
 
 .custom .a.pressed{
-    background-position: 4px 56px;
+    background-position: 2px 44px;
 }
 .custom .b.pressed{
-    background-position: 56px -67px;
+    background-position: 43px -82px;
 }
 
 /* DPAD Complete */
