@@ -40,7 +40,7 @@ start and select buttons. */
 
 .custom .back.pressed, .custom .start.pressed{
     background-image: url(/GamePadViewer/clicked-menu.png);
-    background-position: -83px -159px;
+    background-position: 0px 1px;
 } 
 
 /* Positioning and size of the container for the face buttons */
