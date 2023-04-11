@@ -58,7 +58,7 @@ start and select buttons. */
     height:45px;
 }
 .custom .button.pressed{
-    background: url(/GamePadViewer/buttons.png);
+    background: url(/GamePadViewer/clicked-ab.png);
 }
 
 
