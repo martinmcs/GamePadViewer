@@ -43,7 +43,7 @@ start and select buttons. */
 }
 
 .custom .back.pressed, .custom .start.pressed{
-    background-image: url(/GamePadViewer/clicked-menu.png);
+    background-image: url(clicked-menu.png);
     background-position: 0px 1px;
 } 
 
@@ -62,7 +62,7 @@ start and select buttons. */
     height:45px;
 }
 .custom .button.pressed{
-    background: url(/GamePadViewer/clicked-ab.png);
+    background: url(clicked-ab.png);
 }
 
 /* B is circle and A is cross on the PS4 controller. To resolve this, the remapping occurs within the URL */
@@ -129,7 +129,7 @@ start and select buttons. */
     right: 0px;
 }
 .custom .face.pressed{
-    background: url(/GamePadViewer/clicked-dpad.png);
+    background: url(clicked-dpad.png);
     background-position: -2px -112px;
 }
 
