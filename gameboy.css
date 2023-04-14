@@ -10,11 +10,16 @@ https://gamepadviewer.com/?p=1&css=https%3A%2F%2Fmartinmcs.github.io%2FGamePadVi
     width: 331px;
 }
 
-/* This hides the controller's button when disconnected so only the background image remains */ 
-.custom.disconnected div {
+
+.custom.disconnected {
     background: url(disconnected.png); 
     height: 330px;
     width: 331px;
+}
+
+/* This hides the controller's button when disconnected so only the background image remains */ 
+.custom.disconnected div {
+    display: none;
 }
 
 /* This is to size and position the containing div for the 
